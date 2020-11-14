@@ -1,0 +1,19 @@
+
+  
+  .imgChoiceImg {
+    margin-top: 20px;
+    width: 40vh;
+  }
+  
+  .divChoiceText {
+    font-size: 50px;
+    font-family: Luminari, fantasy;
+    text-shadow: 5px 5px lightblue;
+    color: cornflowerblue;
+    text-decoration: blink;
+    margin-bottom: 10px;
+  }
+  
+  .divNoChoice {
+    height: 50px;
+  }
