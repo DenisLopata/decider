@@ -63,7 +63,6 @@ export default function RandomChoice() {
   }, [shouldUpdate]);
 
   return (
-    <div>
       <Container>
         {choiceData.imageSource !== "none" ? (
           <img
@@ -87,6 +86,5 @@ export default function RandomChoice() {
           Make Decision
         </Button>
       </Container>
-    </div>
   );
 }

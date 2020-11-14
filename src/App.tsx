@@ -10,6 +10,7 @@ function App() {
         <NavBar></NavBar>
       </header>
       <div className="App-body">
+
         <RandomChoice></RandomChoice>
       </div>
     </div>
