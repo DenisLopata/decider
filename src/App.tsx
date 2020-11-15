@@ -9,10 +9,10 @@ function App() {
       <header className="App-header">
         <NavBar></NavBar>
       </header>
-      <div className="App-body">
+      {/* <div className="App-body">
 
         <RandomChoice></RandomChoice>
-      </div>
+      </div> */}
     </div>
   );
 }
