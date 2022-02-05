@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -40,5 +40,5 @@ jobs:
         with:
           app-name: 'reactappbest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_18FBB1E2E9514BDF84AB22EC163E976D }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP }}
           package: .
