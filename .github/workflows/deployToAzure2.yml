@@ -41,4 +41,4 @@ jobs:
           app-name: 'reactappbest'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZURE_WEBAPP }}
-          package: .
+          package: 'build'
